@@ -1,0 +1,57 @@
+
+.doneListEl {
+    overflow-y: scroll;
+    height: 657px;
+    z-index: -1;
+}
+
+
+.doneEl {
+    margin-top: 10px;
+    list-style: none;
+    width: 100%;
+    min-height: 77px;
+    margin-bottom: 33px;
+}
+
+.parentDoneEl {
+    position: relative;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: #DDDDDD;
+    border-radius: 50px;
+    min-height: 77px;
+}
+
+.buttonDoneEl {
+    border: none;
+    min-width: 71px;
+    min-height: 71px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(file:///Users/igormazhitov/Desktop/Icons/cancel-svgrepo-com.svg);
+}
+
+.textDoneEl {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Mate SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    word-break:break-all;
+    height: fit-content;
+}
+
+

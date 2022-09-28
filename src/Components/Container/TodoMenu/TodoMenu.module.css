@@ -1,0 +1,107 @@
+.todomenu {
+    background-color: #FBFCFC;
+    height: 100%;
+}
+
+.todomenu > div {
+    padding: 8px;
+    color: #424949;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.todoinput {
+    min-height: 42px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #424949;
+    word-wrap: break-word;
+    font-family: 'Mate SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+
+
+.input::placeholder {
+    font-family: 'Mate SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.listOfItems {
+    overflow-y: scroll;
+    height: 586px;
+    z-index: -1;
+}
+
+.listEl {
+    list-style: none;
+    width: 100%;
+    min-height: 77px;
+    margin-bottom: 33px;
+}
+
+.parentListEl {
+    position: relative;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: #DDDDDD;
+    border-radius: 50px;
+    min-height: 77px;
+}
+
+.buttonListEl {
+    border: none;
+    min-width: 71px;
+    min-height: 71px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(file:///Users/igormazhitov/Desktop/Icons/cancel-svgrepo-com.svg);
+}
+
+.checkListEl {
+    border: none;
+    min-width: 71px;
+    min-height: 71px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(file:///Users/igormazhitov/Desktop/Icons/down-arrow-svgrepo-com.svg);
+}
+
+.textListEl {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Mate SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    word-break:break-all;
+    height: fit-content;
+}
